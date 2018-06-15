@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  commentId: T:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  id: NWaySetAssociativeCache`2.CacheOperation
+  parent: NWaySetAssociativeCache.Cache
+  children:
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Clear
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.ContainsKey
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.DeepClear
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Get
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Put
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.PutAll
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Remove
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache<TKey, TValue>.CacheOperation
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation
+  type: Enum
+  source:
+    id: CacheOperation
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  example: []
+  syntax:
+    content: public enum CacheOperation
+    content.vb: Public Enum CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation
+  name.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Put
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Put
+  id: Put
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: Put
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Put
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Put
+  type: Field
+  source:
+    id: Put
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: Put = 0
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Put
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Put
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Get
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Get
+  id: Get
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: Get
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Get
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Get
+  type: Field
+  source:
+    id: Get
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: Get = 1
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Get
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Get
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Remove
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Remove
+  id: Remove
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: Remove
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Remove
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Remove
+  type: Field
+  source:
+    id: Remove
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: Remove = 2
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Remove
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Remove
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.PutAll
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.PutAll
+  id: PutAll
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: PutAll
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.PutAll
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.PutAll
+  type: Field
+  source:
+    id: PutAll
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: PutAll = 3
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.PutAll
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.PutAll
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Clear
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.Clear
+  id: Clear
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: Clear
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Clear
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.Clear
+  type: Field
+  source:
+    id: Clear
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: Clear = 4
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Clear
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.Clear
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.DeepClear
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.DeepClear
+  id: DeepClear
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: DeepClear
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.DeepClear
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.DeepClear
+  type: Field
+  source:
+    id: DeepClear
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: DeepClear = 5
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.DeepClear
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.DeepClear
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.ContainsKey
+  commentId: F:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation.ContainsKey
+  id: ContainsKey
+  parent: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>.CacheOperation.ContainsKey
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation.ContainsKey
+  type: Field
+  source:
+    id: ContainsKey
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Cache\NWaySetAssociativeCache.cs
+    startLine: 58
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Cache
+  syntax:
+    content: ContainsKey = 6
+    return:
+      type: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.ContainsKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation.ContainsKey
+references:
+- uid: NWaySetAssociativeCache.Cache
+  commentId: N:NWaySetAssociativeCache.Cache
+  name: NWaySetAssociativeCache.Cache
+  nameWithType: NWaySetAssociativeCache.Cache
+  fullName: NWaySetAssociativeCache.Cache
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  commentId: T:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  parent: NWaySetAssociativeCache.Cache
+  name: NWaySetAssociativeCache.CacheOperation<>
+  nameWithType: NWaySetAssociativeCache.CacheOperation<>
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation<>
+  nameWithType.vb: NWaySetAssociativeCache.CacheOperation(Of )
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation(Of )
+  name.vb: NWaySetAssociativeCache.CacheOperation(Of )
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )

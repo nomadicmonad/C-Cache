@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Utility
+  commentId: N:NWaySetAssociativeCache.Utility
+  id: NWaySetAssociativeCache.Utility
+  children:
+  - NWaySetAssociativeCache.Utility.SetOptimizer`2
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache.Utility
+  nameWithType: NWaySetAssociativeCache.Utility
+  fullName: NWaySetAssociativeCache.Utility
+  type: Namespace
+  assemblies:
+  - NWaySetAssociativeCache
+references:
+- uid: NWaySetAssociativeCache.Utility.SetOptimizer`2
+  commentId: T:NWaySetAssociativeCache.Utility.SetOptimizer`2
+  name: SetOptimizer<TKey, TValue>
+  nameWithType: SetOptimizer<TKey, TValue>
+  fullName: NWaySetAssociativeCache.Utility.SetOptimizer<TKey, TValue>
+  nameWithType.vb: SetOptimizer(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.Utility.SetOptimizer(Of TKey, TValue)
+  name.vb: SetOptimizer(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Utility.SetOptimizer`2
+    name: SetOptimizer
+    nameWithType: SetOptimizer
+    fullName: NWaySetAssociativeCache.Utility.SetOptimizer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Utility.SetOptimizer`2
+    name: SetOptimizer
+    nameWithType: SetOptimizer
+    fullName: NWaySetAssociativeCache.Utility.SetOptimizer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

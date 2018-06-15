@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Memory
+  commentId: N:NWaySetAssociativeCache.Memory
+  id: NWaySetAssociativeCache.Memory
+  children:
+  - NWaySetAssociativeCache.Memory.MemoryAccess`2
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache.Memory
+  nameWithType: NWaySetAssociativeCache.Memory
+  fullName: NWaySetAssociativeCache.Memory
+  type: Namespace
+  assemblies:
+  - NWaySetAssociativeCache
+references:
+- uid: NWaySetAssociativeCache.Memory.MemoryAccess`2
+  commentId: T:NWaySetAssociativeCache.Memory.MemoryAccess`2
+  name: MemoryAccess<TKey, TValue>
+  nameWithType: MemoryAccess<TKey, TValue>
+  fullName: NWaySetAssociativeCache.Memory.MemoryAccess<TKey, TValue>
+  nameWithType.vb: MemoryAccess(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.Memory.MemoryAccess(Of TKey, TValue)
+  name.vb: MemoryAccess(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Memory.MemoryAccess`2
+    name: MemoryAccess
+    nameWithType: MemoryAccess
+    fullName: NWaySetAssociativeCache.Memory.MemoryAccess
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Memory.MemoryAccess`2
+    name: MemoryAccess
+    nameWithType: MemoryAccess
+    fullName: NWaySetAssociativeCache.Memory.MemoryAccess
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

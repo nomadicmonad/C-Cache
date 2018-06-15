@@ -1,0 +1,44 @@
+### YamlMime:TableOfContent
+- uid: NWaySetAssociativeCache.Cache
+  name: NWaySetAssociativeCache.Cache
+  items:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+    name: NWaySetAssociativeCache<TKey, TValue>
+    name.vb: NWaySetAssociativeCache(Of TKey, TValue)
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache<TKey, TValue>.CacheOperation
+    name.vb: NWaySetAssociativeCache(Of TKey, TValue).CacheOperation
+- uid: NWaySetAssociativeCache.Exceptions
+  name: NWaySetAssociativeCache.Exceptions
+  items:
+  - uid: NWaySetAssociativeCache.Exceptions.ConstructorParameterException
+    name: ConstructorParameterException
+  - uid: NWaySetAssociativeCache.Exceptions.EntryNotFoundException
+    name: EntryNotFoundException
+  - uid: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+    name: KeyValueUsesDefaultValueException<TKey>
+    name.vb: KeyValueUsesDefaultValueException(Of TKey)
+- uid: NWaySetAssociativeCache.Memory
+  name: NWaySetAssociativeCache.Memory
+  items:
+  - uid: NWaySetAssociativeCache.Memory.MemoryAccess`2
+    name: MemoryAccess<TKey, TValue>
+    name.vb: MemoryAccess(Of TKey, TValue)
+- uid: NWaySetAssociativeCache.ReplacementPolicies
+  name: NWaySetAssociativeCache.ReplacementPolicies
+  items:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+    name: LRUReplacementPolicy<TKey, TValue>
+    name.vb: LRUReplacementPolicy(Of TKey, TValue)
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+    name: MRUReplacementPolicy<TKey, TValue>
+    name.vb: MRUReplacementPolicy(Of TKey, TValue)
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy<TKey, TValue>
+    name.vb: ReplacementPolicy(Of TKey, TValue)
+- uid: NWaySetAssociativeCache.Utility
+  name: NWaySetAssociativeCache.Utility
+  items:
+  - uid: NWaySetAssociativeCache.Utility.SetOptimizer`2
+    name: SetOptimizer<TKey, TValue>
+    name.vb: SetOptimizer(Of TKey, TValue)

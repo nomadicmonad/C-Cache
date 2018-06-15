@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.ReplacementPolicies
+  commentId: N:NWaySetAssociativeCache.ReplacementPolicies
+  id: NWaySetAssociativeCache.ReplacementPolicies
+  children:
+  - NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+  - NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+  - NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache.ReplacementPolicies
+  nameWithType: NWaySetAssociativeCache.ReplacementPolicies
+  fullName: NWaySetAssociativeCache.ReplacementPolicies
+  type: Namespace
+  assemblies:
+  - NWaySetAssociativeCache
+references:
+- uid: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+  commentId: T:NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+  name: LRUReplacementPolicy<TKey, TValue>
+  nameWithType: LRUReplacementPolicy<TKey, TValue>
+  fullName: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy<TKey, TValue>
+  nameWithType.vb: LRUReplacementPolicy(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy(Of TKey, TValue)
+  name.vb: LRUReplacementPolicy(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+    name: LRUReplacementPolicy
+    nameWithType: LRUReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy`2
+    name: LRUReplacementPolicy
+    nameWithType: LRUReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.LRUReplacementPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+  commentId: T:NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+  name: MRUReplacementPolicy<TKey, TValue>
+  nameWithType: MRUReplacementPolicy<TKey, TValue>
+  fullName: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy<TKey, TValue>
+  nameWithType.vb: MRUReplacementPolicy(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy(Of TKey, TValue)
+  name.vb: MRUReplacementPolicy(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+    name: MRUReplacementPolicy
+    nameWithType: MRUReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy`2
+    name: MRUReplacementPolicy
+    nameWithType: MRUReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.MRUReplacementPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  commentId: T:NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  name: ReplacementPolicy<TKey, TValue>
+  nameWithType: ReplacementPolicy<TKey, TValue>
+  fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy<TKey, TValue>
+  nameWithType.vb: ReplacementPolicy(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy(Of TKey, TValue)
+  name.vb: ReplacementPolicy(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

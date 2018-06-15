@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<docs>
+  <members name="Cache">
+    <NWaySetAssociativeCache>
+      <Class>
+        <summary>Generic NWaySetAssociativeCache class, which stores generic key-value pairs of any type.</summary>
+        <remarks>
+          The class enforces Type-safety through generics.
+          The class supports cache WriteBack and WriteThrough policies, mediated through a subclass of MemoryAccess.
+          The class decides its replacement policy in the case of a cache miss using the getReplacementIndex method of the constructor supplied subclass of ReplacementPolicy.
+        </remarks>
+      </Class>
+      <Constructor>
+        <summary>Constructor of the generic NWaySetAssociativeCache.</summary>
+        <remarks>Requires a MemoryAccess subclass instance, a ReplacementPolicy subclass instance, the cache size, number of sets, and writing policy. Note: the cache size is treated as a suggestion, and can expand by (b - 1 - ((a-1)%b)).</remarks>
+        <exception cref="Exceptions.ConstructorParameterException"> Throws an exception in case of null values being passed to the constructor, or the cache and set parameters being out of bounds.</exception>
+      </Constructor>
+      <keys>
+        <summary>Generic keys to be stored.</summary></keys>
+      <values>
+        <summary>Generic values to be stored.</summary></values>
+      <accessList>
+        <summary>A list of sets, each of which contains a list of ordered access history of cache entries.</summary>
+      </accessList>
+      <isModified>
+        <summary>Array keeping track of entry modification, similar to a 'dirty bit'.</summary></isModified>
+      <CacheOperation>
+        <summary>An enum listing the possible cache operations.</summary></CacheOperation>
+      <Put>
+        <summary>Put a generic key-value entry into the cache.</summary>
+        <returns>A generic TValue of an old entry if Write-Through is used and a cache entry is replaced.</returns>
+        <exception cref="Exceptions.KeyValueUsesDefaultValue">Exception thrown if default(TKey) is used as key.</exception>
+      </Put>
+      <DeepClear>
+        <summary>Clear the cache and memory completely.</summary>
+      </DeepClear>
+      <Clear>
+        <summary>Clear the cache only.</summary>
+      </Clear>
+      <PutAll>
+        <summary>PutAll method, used to enter tuples of generic TKey,TValue pairs into the cache at once.</summary>
+        <returns>If write-through is used, replaced entries are returned as a TValue array.</returns>
+        <exception cref="Exceptions.KeyValueUsesDefaultValue">Exception thrown if default(TKey) is used as key.</exception>      
+      </PutAll>
+      <Remove>
+        <summary>Remove method, which removes entries from the cache.</summary>
+        <remarks>If WriteBack is used, entries are removed from memory as well.</remarks>
+        <exception cref="Exceptions.EntryNotFoundException">Exception thrown if entry not found and Write-Through is used.</exception>
+      </Remove>
+      <Get>
+        <summary>Get method, used to query the cache for a TValue.</summary>
+        <exception cref="Exceptions.EntryNotFoundException">Exception thrown if entry not found and Write-Through is used.</exception>
+      </Get>
+      <ContainsKey>
+        <summary>ContainsKey method, used to query the cache as to the existence of a TKey.</summary>
+      </ContainsKey>
+      <InvokeReflected>
+        <summary>
+          A pseudo-reflection method used to call operations of the cache upon tuples of entries, based on the CacheOperation enum,
+          which encodes the methods the cache implements.
+        </summary>
+        <remarks>Used by the SetOptimizer utility class.</remarks>
+      </InvokeReflected>
+    </NWaySetAssociativeCache>
+  </members>
+  <members name="Exceptions">
+    <ConstructorParameterException>
+      <Class>
+        <summary>Exception subclass thrown when the NWaySetAssociativeCache constructor is called with corrupt values.</summary>
+      </Class>
+    </ConstructorParameterException>
+    <EntryNotFoundException>
+      <Class>
+        <summary>Exception subclass thrown when a cache entry cannot be found, and Write-Through is used.</summary>
+      </Class>
+    </EntryNotFoundException>
+    <KeyValueUsesDefaultValueException>
+      <Class>
+        <summary>Exception subclass thrown when a cache addition attempts to use a TKey equal to default(Tkey).</summary>
+      </Class>
+    </KeyValueUsesDefaultValueException>
+  </members>
+  <members name="Memory">
+    <MemoryAccess>
+      <Class>
+        <summary>Generic abstract MemoryAccess class, used to define the channel through which the cache communicates with memory.</summary>
+      </Class>
+      <Put>
+        <summary>Abstract Put method for adding a TKey,TValue pair to memory.</summary>
+      </Put>
+      <Get>
+        <summary>Abstract Get method for quering a TKey from memory.</summary>
+      </Get>
+      <Remove>
+        <summary>Abstract Remove method for removing a memory entry and returning its TValue.</summary>
+      </Remove>
+      <Clear>
+        <summary>Abstract Clear method for emptying the entries in memory.</summary>
+      </Clear>
+    </MemoryAccess>
+  </members>
+  <members name="ReplacementPolicies">
+    <LRUReplacementPolicy>
+      <Class>
+        <summary>Generic subclass LRUReplacementPolicy of abstract class ReplacementPolicy. Implements the Least Recently Used replacement policy, which replaces a cache entry if it was least recently accessed.</summary>       
+      </Class>
+      <GetReplacementIndex>
+        <summary>Method for returning the index to be replaced, in this case the least recently used entry in the access history.</summary>
+      </GetReplacementIndex>
+      <RefreshPolicy>
+        <summary>Method for refreshing the policy based on cache operations.</summary>
+      </RefreshPolicy>
+    </LRUReplacementPolicy>
+    <MRUReplacementPolicy>
+      <Class>
+        <summary>Generic subclass MRUReplacementPolicy of abstract class ReplacementPolicy. Implements the Most Recently Used replacement policy, which replaces a cache entry if it was most recently accessed.</summary>
+      </Class>
+      <GetReplacementIndex>
+        <summary>Method for returning the index to be replaced, in this case the most recently used entry in the access history.</summary>
+      </GetReplacementIndex>
+      <RefreshPolicy>
+        <summary>Method for refreshing the policy based on cache operations.</summary>
+      </RefreshPolicy>
+    </MRUReplacementPolicy>
+    <ReplacementPolicy>
+      <Class>
+        <summary>Generic abstract class ReplacementPolicy, used to decide which cache entries to replace.</summary>
+      </Class>
+      <GetReplacementIndex>
+        <summary>Abstract method for returning the index to be replaced.</summary>
+      </GetReplacementIndex>
+      <RefreshPolicy>
+        <summary>Abstract method for refreshing the policy based on cache operations.</summary>
+      </RefreshPolicy>
+    </ReplacementPolicy>
+  </members>
+  <members name="Utility">
+    <SetOptimizer>
+      <Class>
+        <summary>Generic Static SetOptimizer utility class, used to calculate the N-way with the lowest miss rate, given a set of sample entries and operations.</summary>
+      </Class>
+      <GetLowestMissN>
+        <summary>
+          GetLowestMissN Method
+          Parametrized by the generic TKey,TValue, which are set at runtime.
+        </summary>
+        <remarks>Inputs: cacheSize, test entries (keys,values, and which operations to call on them), and a replacementPolicy.</remarks>
+        <returns>int optimalN, which corresponds to the N-way with the lowest miss rate.</returns>
+      </GetLowestMissN>
+    </SetOptimizer>
+  </members>
+</docs>

@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Utility.SetOptimizer`2
+  commentId: T:NWaySetAssociativeCache.Utility.SetOptimizer`2
+  id: SetOptimizer`2
+  parent: NWaySetAssociativeCache.Utility
+  children:
+  - NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN(System.Int32,System.Tuple{`0,`1,NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{`0,`1}.CacheOperation}[],NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{`0,`1})
+  langs:
+  - csharp
+  - vb
+  name: SetOptimizer<TKey, TValue>
+  nameWithType: SetOptimizer<TKey, TValue>
+  fullName: NWaySetAssociativeCache.Utility.SetOptimizer<TKey, TValue>
+  type: Class
+  source:
+    id: SetOptimizer
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Utility\SetOptimizer.cs
+    startLine: 12
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Utility
+  example: []
+  syntax:
+    content: public static class SetOptimizer<TKey, TValue>
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    content.vb: Public Module SetOptimizer(Of TKey, TValue)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: SetOptimizer(Of TKey, TValue)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+  fullName.vb: NWaySetAssociativeCache.Utility.SetOptimizer(Of TKey, TValue)
+  name.vb: SetOptimizer(Of TKey, TValue)
+- uid: NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN(System.Int32,System.Tuple{`0,`1,NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{`0,`1}.CacheOperation}[],NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{`0,`1})
+  commentId: M:NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN(System.Int32,System.Tuple{`0,`1,NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{`0,`1}.CacheOperation}[],NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{`0,`1})
+  id: GetLowestMissN(System.Int32,System.Tuple{`0,`1,NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{`0,`1}.CacheOperation}[],NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{`0,`1})
+  parent: NWaySetAssociativeCache.Utility.SetOptimizer`2
+  langs:
+  - csharp
+  - vb
+  name: GetLowestMissN(Int32, Tuple<TKey, TValue, NWaySetAssociativeCache<TKey, TValue>.CacheOperation>[], ReplacementPolicy<TKey, TValue>)
+  nameWithType: SetOptimizer<TKey, TValue>.GetLowestMissN(Int32, Tuple<TKey, TValue, NWaySetAssociativeCache<TKey, TValue>.CacheOperation>[], ReplacementPolicy<TKey, TValue>)
+  fullName: NWaySetAssociativeCache.Utility.SetOptimizer<TKey, TValue>.GetLowestMissN(System.Int32, System.Tuple<TKey, TValue, NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>.CacheOperation>[], NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy<TKey, TValue>)
+  type: Method
+  source:
+    id: GetLowestMissN
+    path: C:\Users\team_ed\source\repos\SetAssociativeCache\NWaySetAssociativeCache\Utility\SetOptimizer.cs
+    startLine: 22
+  assemblies:
+  - NWaySetAssociativeCache
+  namespace: NWaySetAssociativeCache.Utility
+  example: []
+  syntax:
+    content: public static int GetLowestMissN(int cacheSize, Tuple<TKey, TValue, NWaySetAssociativeCache<TKey, TValue>.CacheOperation>[] testEntries, ReplacementPolicy<TKey, TValue> replacementPolicy)
+    parameters:
+    - id: cacheSize
+      type: System.Int32
+    - id: testEntries
+      type: System.Tuple{{TKey},{TValue},NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{{TKey},{TValue}}.CacheOperation}[]
+    - id: replacementPolicy
+      type: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{{TKey},{TValue}}
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetLowestMissN(cacheSize As Integer, testEntries As Tuple(Of TKey, TValue, NWaySetAssociativeCache(Of TKey, TValue).CacheOperation)(), replacementPolicy As ReplacementPolicy(Of TKey, TValue)) As Integer
+  overload: NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN*
+  nameWithType.vb: SetOptimizer(Of TKey, TValue).GetLowestMissN(Int32, Tuple(Of TKey, TValue, NWaySetAssociativeCache(Of TKey, TValue).CacheOperation)(), ReplacementPolicy(Of TKey, TValue))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: NWaySetAssociativeCache.Utility.SetOptimizer(Of TKey, TValue).GetLowestMissN(System.Int32, System.Tuple(Of TKey, TValue, NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue).CacheOperation)(), NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy(Of TKey, TValue))
+  name.vb: GetLowestMissN(Int32, Tuple(Of TKey, TValue, NWaySetAssociativeCache(Of TKey, TValue).CacheOperation)(), ReplacementPolicy(Of TKey, TValue))
+references:
+- uid: NWaySetAssociativeCache.Utility
+  commentId: N:NWaySetAssociativeCache.Utility
+  name: NWaySetAssociativeCache.Utility
+  nameWithType: NWaySetAssociativeCache.Utility
+  fullName: NWaySetAssociativeCache.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN*
+  commentId: Overload:NWaySetAssociativeCache.Utility.SetOptimizer`2.GetLowestMissN
+  name: GetLowestMissN
+  nameWithType: SetOptimizer<TKey, TValue>.GetLowestMissN
+  fullName: NWaySetAssociativeCache.Utility.SetOptimizer<TKey, TValue>.GetLowestMissN
+  nameWithType.vb: SetOptimizer(Of TKey, TValue).GetLowestMissN
+  fullName.vb: NWaySetAssociativeCache.Utility.SetOptimizer(Of TKey, TValue).GetLowestMissN
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Tuple{{TKey},{TValue},NWaySetAssociativeCache.Cache.NWaySetAssociativeCache{{TKey},{TValue}}.CacheOperation}[]
+  isExternal: true
+  name: Tuple<TKey, TValue, NWaySetAssociativeCache.CacheOperation<>>[]
+  nameWithType: Tuple<TKey, TValue, NWaySetAssociativeCache.CacheOperation<>>[]
+  fullName: System.Tuple<TKey, TValue, NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation<>>[]
+  nameWithType.vb: Tuple(Of TKey, TValue, NWaySetAssociativeCache.CacheOperation(Of ))()
+  fullName.vb: System.Tuple(Of TKey, TValue, NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation(Of ))()
+  name.vb: Tuple(Of TKey, TValue, NWaySetAssociativeCache.CacheOperation(Of ))()
+  spec.csharp:
+  - uid: System.Tuple`3
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Tuple`3
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{{TKey},{TValue}}
+  commentId: T:NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy{`0,`1}
+  parent: NWaySetAssociativeCache.ReplacementPolicies
+  definition: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  name: ReplacementPolicy<TKey, TValue>
+  nameWithType: ReplacementPolicy<TKey, TValue>
+  fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy<TKey, TValue>
+  nameWithType.vb: ReplacementPolicy(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy(Of TKey, TValue)
+  name.vb: ReplacementPolicy(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  commentId: T:NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+  name: ReplacementPolicy<TKey, TValue>
+  nameWithType: ReplacementPolicy<TKey, TValue>
+  fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy<TKey, TValue>
+  nameWithType.vb: ReplacementPolicy(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy(Of TKey, TValue)
+  name.vb: ReplacementPolicy(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy`2
+    name: ReplacementPolicy
+    nameWithType: ReplacementPolicy
+    fullName: NWaySetAssociativeCache.ReplacementPolicies.ReplacementPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.ReplacementPolicies
+  commentId: N:NWaySetAssociativeCache.ReplacementPolicies
+  name: NWaySetAssociativeCache.ReplacementPolicies
+  nameWithType: NWaySetAssociativeCache.ReplacementPolicies
+  fullName: NWaySetAssociativeCache.ReplacementPolicies

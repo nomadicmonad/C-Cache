@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Exceptions
+  commentId: N:NWaySetAssociativeCache.Exceptions
+  id: NWaySetAssociativeCache.Exceptions
+  children:
+  - NWaySetAssociativeCache.Exceptions.ConstructorParameterException
+  - NWaySetAssociativeCache.Exceptions.EntryNotFoundException
+  - NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache.Exceptions
+  nameWithType: NWaySetAssociativeCache.Exceptions
+  fullName: NWaySetAssociativeCache.Exceptions
+  type: Namespace
+  assemblies:
+  - NWaySetAssociativeCache
+references:
+- uid: NWaySetAssociativeCache.Exceptions.ConstructorParameterException
+  commentId: T:NWaySetAssociativeCache.Exceptions.ConstructorParameterException
+  name: ConstructorParameterException
+  nameWithType: ConstructorParameterException
+  fullName: NWaySetAssociativeCache.Exceptions.ConstructorParameterException
+- uid: NWaySetAssociativeCache.Exceptions.EntryNotFoundException
+  commentId: T:NWaySetAssociativeCache.Exceptions.EntryNotFoundException
+  name: EntryNotFoundException
+  nameWithType: EntryNotFoundException
+  fullName: NWaySetAssociativeCache.Exceptions.EntryNotFoundException
+- uid: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+  commentId: T:NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+  name: KeyValueUsesDefaultValueException<TKey>
+  nameWithType: KeyValueUsesDefaultValueException<TKey>
+  fullName: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException<TKey>
+  nameWithType.vb: KeyValueUsesDefaultValueException(Of TKey)
+  fullName.vb: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException(Of TKey)
+  name.vb: KeyValueUsesDefaultValueException(Of TKey)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+    name: KeyValueUsesDefaultValueException
+    nameWithType: KeyValueUsesDefaultValueException
+    fullName: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException`1
+    name: KeyValueUsesDefaultValueException
+    nameWithType: KeyValueUsesDefaultValueException
+    fullName: NWaySetAssociativeCache.Exceptions.KeyValueUsesDefaultValueException
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: NWaySetAssociativeCache.Cache
+  commentId: N:NWaySetAssociativeCache.Cache
+  id: NWaySetAssociativeCache.Cache
+  children:
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+  - NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  langs:
+  - csharp
+  - vb
+  name: NWaySetAssociativeCache.Cache
+  nameWithType: NWaySetAssociativeCache.Cache
+  fullName: NWaySetAssociativeCache.Cache
+  type: Namespace
+  assemblies:
+  - NWaySetAssociativeCache
+references:
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+  commentId: T:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+  name: NWaySetAssociativeCache<TKey, TValue>
+  nameWithType: NWaySetAssociativeCache<TKey, TValue>
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache<TKey, TValue>
+  nameWithType.vb: NWaySetAssociativeCache(Of TKey, TValue)
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache(Of TKey, TValue)
+  name.vb: NWaySetAssociativeCache(Of TKey, TValue)
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+    name: NWaySetAssociativeCache
+    nameWithType: NWaySetAssociativeCache
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2
+    name: NWaySetAssociativeCache
+    nameWithType: NWaySetAssociativeCache
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  commentId: T:NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+  parent: NWaySetAssociativeCache.Cache
+  name: NWaySetAssociativeCache.CacheOperation<>
+  nameWithType: NWaySetAssociativeCache.CacheOperation<>
+  fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation<>
+  nameWithType.vb: NWaySetAssociativeCache.CacheOperation(Of )
+  fullName.vb: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation(Of )
+  name.vb: NWaySetAssociativeCache.CacheOperation(Of )
+  spec.csharp:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache`2.CacheOperation
+    name: NWaySetAssociativeCache.CacheOperation
+    nameWithType: NWaySetAssociativeCache.CacheOperation
+    fullName: NWaySetAssociativeCache.Cache.NWaySetAssociativeCache.CacheOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NWaySetAssociativeCache.Cache
+  commentId: N:NWaySetAssociativeCache.Cache
+  name: NWaySetAssociativeCache.Cache
+  nameWithType: NWaySetAssociativeCache.Cache
+  fullName: NWaySetAssociativeCache.Cache
